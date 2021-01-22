@@ -4,15 +4,18 @@ import * as React from 'react';
 function Header() {
   return (
     <header>
-      hello digit
+      SAVINGS
       <style jsx>{`
         header {
+          border: 1px solid var(--grey-900);
+          border-width: 0 0 1px 0;
           flex: 0 0 auto;
-          font-size: 2rem;
+          font-size: 1.5rem;
           font-weight: 600;
           letter-spacing: -1px;
           line-height: 1;
           padding: var(--space-md);
+          text-align: center;
         }
       `}</style>
     </header>
@@ -24,7 +27,7 @@ export default function Layout({ children }) {
     <>
       <div className="frame">
         <Head>
-          <title>Hello Digit</title>
+          <title>Savings</title>
           <link rel="stylesheet" href="https://use.typekit.net/exv3uqw.css" />
         </Head>
 
